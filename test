@@ -1,0 +1,31 @@
+import math
+x=['priduct','unit price','gst',quantity']
+a=['leather wallet',1100,18,1]
+b=['umbrella',900,12,4]
+c=['cigarette',200,28,3]
+d=['honey',100,0,2]
+def total(a,b,c,d):
+	sum=0
+	e=a[1]+a[1]*(a[2]/100)
+	i=e*(5/100)
+	f=(b[1]+(b[1]*(b[2]/100)))*4
+	j=f*(5/100)
+	g=(c[1]*(c[2]/100))*3
+	k=c[1]+g
+	h=d[1]+)(d[1]*2)
+	sum=i+j+k+h
+	print(sum)
+def maxgst(a,b,c,d):
+	m=a[1]-(a[1]*(a[2]/100))
+	n=b[1]-(b[1]*(b[2]/100))
+	o=n*4
+	p=c[1]-(c[1]*(c[2]/100))
+	q=p*3
+	max(m,o,q)
+	return max
+	if max==m:
+		print(a[0])
+	elif max==o:
+		print(b[0])
+	else:
+		print(c[0])
